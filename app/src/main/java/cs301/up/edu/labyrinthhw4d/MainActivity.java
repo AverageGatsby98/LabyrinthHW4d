@@ -9,6 +9,8 @@ import android.widget.EditText;
 
 /**
  * @author Spencer Nelson, Philip Robinson, Spencer Rose, Erik Torkelson
+ * 2/21/19
+ * This is the MainActivity class we will be using to test our game state "cloning" functionality
  */
 public class MainActivity extends AppCompatActivity implements View.OnTouchListener {
 
