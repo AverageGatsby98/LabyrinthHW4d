@@ -1,4 +1,4 @@
-package cs301.up.edu.labyrinthhw4d;
+package cs301.up.edu.labyrinth;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package cs301.up.edu.labyrinthhw4d;
+package cs301.up.edu.labyrinth;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
