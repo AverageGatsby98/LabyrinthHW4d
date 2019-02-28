@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+
+
 /**
  * @author Spencer Nelson, Philip Robinson, Spencer Rose, Erik Torkelson
  * 2/21/19
@@ -17,6 +19,8 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
     Button runButton;
     EditText outputText;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +34,10 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
     @Override
     public boolean onTouch(View v, MotionEvent event) {
-        outputText.setText(" test ");
+        outputText.setText(" ");
+        LabyrinthGameStateTest test = new LabyrinthGameStateTest();
+        String output = test.getInfo();
+        outputText.setText(""+output);
         return false;
     }
 }
