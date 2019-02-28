@@ -10,7 +10,7 @@ import cs301.up.edu.labyrinth.GameAction;
  * @author Steven R. Vegdahl
  * @author Andrew M. Nuxoll
  * @version July 2013
- * 
+ *
  *
  */
 

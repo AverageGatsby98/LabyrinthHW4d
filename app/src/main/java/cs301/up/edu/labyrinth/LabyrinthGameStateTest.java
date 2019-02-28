@@ -88,8 +88,13 @@ public class LabyrinthGameStateTest {
         String fourth = this.fourthInstance.toString();
 
         // Append the information about second and fourth instances
+        textToPrint.append("\n");
+        textToPrint.append("\n");
+        textToPrint.append("Second Instance: \n");
         textToPrint.append(second);
         textToPrint.append("\n");
+        textToPrint.append("\n");
+        textToPrint.append("Fourth Instance: \n");
         textToPrint.append(fourth);
 
         return textToPrint.toString();
