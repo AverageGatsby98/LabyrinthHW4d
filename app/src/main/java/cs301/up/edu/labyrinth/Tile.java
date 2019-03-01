@@ -2,10 +2,6 @@ package cs301.up.edu.labyrinth;
 
 import java.io.Serializable;
 
-import cs301.up.edu.labyrinth.Player;
-import cs301.up.edu.labyrinth.TileType;
-import cs301.up.edu.labyrinth.TreasureType;
-
 
 /**
  * Defines a board tile. The gameboard is made up of these tile objects.
@@ -285,8 +281,16 @@ public class Tile implements Serializable {
                             {false, false, false, false}; break;
                 }
             }
-        }
 
+            case RED_ENTRY: this.connections = new boolean[]
+                    {false, false, true, true};
+            case YELLOW_ENTRY: this.connections = new boolean[]
+                    {true, false, false, true};
+            case BLUE_ENTRY: this.connections = new boolean[]
+                    {true, true, false, false};
+            case GREEN_ENTRY: this.connections = new boolean[]
+                    {false, true, true, false};
+        }
     }
 
     /**
